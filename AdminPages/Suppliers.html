@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper-Phase IMS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style/Navigation.css">
+    
+</head>
+<body style="margin: auto; padding: 0;">
+    <!-- Navigation -->
+    <nav id="navigation">
+        <div class="expand">
+            <button class="expandbtn" onclick="expand()" id="xpnd"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="compress menus-none" id="compress">
+            <button class="compressbtn" onclick="compress()" id="cmprss"><i class="fas fa-bars"></i></button>
+        </div>
+        <!-- ------------ -->
+        <div class="menus01" id="menus01">
+            <button class="menubtn " id="home" onclick="homePage()"><i class="fas fa-home" ></i></button>
+            <button class="menubtn " id="PrdL" onclick="productPage()"><i class="fas fa-bars-progress" ></i></button>
+            <button class="menubtn " id="PrcL" onclick="pricePage()"><i class="fas fa-tag" ></i></button>
+            <button class="menubtn " id="PO" onclick="poPage()"><i class="fas fa-bag-shopping" ></i></button>
+            <button class="menubtn selected" id="Sup" onclick="supplierPage()"><i class="fas fa-boxes-packing" id="selected-i"></i></button>
+            <button class="menubtn" id="SA" onclick="staffaccPage()"><i class="fas fa-clipboard-user"></i></button>
+            <button class="menubtn" id="POS" onclick="posPage()"><i class="fas fa-barcode"></i></button>
+            <button class="menubtn" id="IT" onclick="itPage()"><i class="fas fa-microchip"></i></button>
+        </div>
+        <div class="menus-none" id="menus02">
+            <button class="menubtn2 " id="home" onclick="homePage()">
+                <i class="fas fa-home" > </i> 
+                Home
+            </button>
+            <button class="menubtn2 " id="PrdL" onclick="productPage()">
+                <i class="fas fa-bars-progress" > </i> 
+                Product Lists
+            </button>
+            <button class="menubtn2 " id="PrcL" onclick="pricePage()">
+                <i class="fas fa-tag" > </i> 
+                Price Lists
+            </button>
+            <button class="menubtn2 " id="PO" onclick="poPage()">
+                <i class="fas fa-bag-shopping" > </i> 
+                Purchase Order
+            </button>
+            <button class="menubtn2 selected2" id="Sup"  onclick="supplierPage()">
+                <i class="fas fa-boxes-packing"id="selected-i2"> </i> 
+                Suppliers
+            </button>
+            <button class="menubtn2" id="SA" onclick="staffaccPage()">
+                <i class="fas fa-clipboard-user"> </i> 
+                Staff Information
+            </button>
+            <button class="menubtn2" id="POS" onclick="posPage()">
+                <i class="fas fa-barcode"> </i> 
+                P.O.S
+            </button>
+            <button class="menubtn2" id="IT" onclick="itPage()">
+                <i class="fas fa-microchip"> </i>
+                 I.T's
+                </button>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+</body>
+<script src="../Javascripts/Navigation.js"></script>
+</html>

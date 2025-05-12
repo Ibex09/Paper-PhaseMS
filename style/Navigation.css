@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    position: fixed;
+    background-color: #55BF8F;
+    height: 100vh;
+    width: 60px;
+    padding: 5px;
+}
+.expandbtn{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+}
+.expandbtn>i{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.menus01{
+    margin-top: 50px;
+}
+.menubtn{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+.menubtn>i{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.selected{
+    background-color: #D5EBE9;
+    color: #55BF8F;
+}
+#selected-i{
+    color: #55BF8F;
+}
+.menubtn:hover{
+    background-color: #D5EBE9;
+}
+.expandbtn:hover{
+    background-color: #D5EBE9;
+}
+/* js function */
+.expandNav{
+    width: 200px;
+}
+
+/* expand menus */
+.menus02{
+    margin-top: 50px;
+}
+.menubtn2{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.menubtn2:hover{
+    background-color: #D5EBE9;
+}
+.menubtn2>i{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.selected2{
+    background-color: #D5EBE9;
+    color: #55BF8F;
+}
+#selected-i2{
+    color: #55BF8F;
+}
+.menus-none{
+    display: none;
+}
+
+.compressbtn{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    padding-right: 15px;
+}
+.compressbtn>i{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.compressbtn:hover{
+    background-color: #D5EBE9;
+}
